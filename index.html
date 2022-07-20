@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Email Taty</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f1f1f1;
+        color: #101010;
+      }
+      .w-100 {
+        width: 100%;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .title {
+        margin-bottom: 15px;
+      }
+      .card {
+        margin: 30px auto;
+        width: 90%;
+        background-color: #ffffff;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .card-header {
+        padding-top: 30px;
+      }
+      .card-header img {
+        width: 350px;
+      }
+      .card-body {
+        padding: 30px;
+        border-bottom: #cfcfcf 1px solid;
+      }
+      .card-footer {
+        padding: 35px;
+      }
+      .code {
+        padding: 15px 25px;
+        border: solid #cfcfcf 1.5px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 25px;
+      }
+      .mb-4 {
+        margin-bottom: 40px;
+      }
+      footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #ffffff;
+        background-color: #df3d24;
+        padding: 20px 50px;
+      }
+      footer img {
+        width: 100px;
+        border-radius: 10px;
+      }
+      @media only screen and (max-width: 500px) and (min-width: 5px) {
+        footer {
+          padding: 15px;
+        }
+        footer h2 {
+          font-size: 16px;
+        }
+        footer img {
+          width: 50px;
+        }
+        .card-header img {
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-header text-center">
+        <img src="header-img.png" alt="logo" />
+      </div>
+      <div class="card-body text-center">
+        <h1 class="title">Welcome!</h1>
+        <p class="mb-4">
+          Complete your registration with the following confirmation code
+        </p>
+        <span class="code">505 928</span>
+      </div>
+      <div class="card-footer text-center">
+        <p>
+          You have received this email because you have requested to register in
+          our CRM. You can ignore this message if you have not requested it.
+        </p>
+      </div>
+      <footer>
+        <h2>Business Market Finders</h2>
+        <img
+          src="https://crm.businessmarketfinders.com/assets/img/logo.jpg"
+          alt="logo"
+        />
+      </footer>
+    </div>
+  </body>
+</html>
